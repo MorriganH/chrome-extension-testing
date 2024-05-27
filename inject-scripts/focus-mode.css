@@ -1,6 +1,12 @@
 body > .scaffold > :is(top-nav, navigation-rail, side-nav, footer),
 main > :not(:last-child),
 main > :last-child > navigation-tree,
+.devsite-header--inner,
+.devsite-book-nav,
+.devsite-book-nav-filter,
+input,
+.filter-list-icon,
+.devsite-footer,
 main .toc-container {
   display: none;
 }
